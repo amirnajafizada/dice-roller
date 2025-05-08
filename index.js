@@ -5,10 +5,10 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 var randomeImg1 = "images/dice" + randomNumber1 + ".png";
 var randomImg2 = "images/dice" + randomNumber2 + ".png";
 
-var img1 = document.querySelector("#img1")
+var img1 = document.querySelector(".img1")
 img1.setAttribute("src",randomeImg1)
 
-var img2 = document.querySelector("#img2");
+var img2 = document.querySelector(".img2");
 img2.setAttribute("src", randomImg2)
 
 if (randomeImg1 === randomImg2) {
